@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pan-pacifiq</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .navbar-brand img {
+        width: 30px;
+        height: 40px;
+      }
+      #navbarNav{
+        text-align-last: auto;
+      }
+      
+      .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      }
+     
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="40" height="24" class="d-inline-block align-text-top">
+                PAN-PECIFIC
+            </a>
+
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links and search -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="navbar-item">
+                        <a class="nav-link" aria-current="page" href="intro.html">The Hotel</a>
+                    </li>
+                    <!-- dopdown -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Dining
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="https://nijhoom.com/top-bangladeshi-food/" target="_blank">Bangladeshi Food</a></li>
+                          <li><a class="dropdown-item" href="https://www.purewow.com/food/traditional-chinese-food" target="_blank">Chinease Food</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="https://www.japancentre.com/en/page/156-30-must-try-japanese-foods" target="_blank">Japanise Food </a></li>
+                          <li><a class="dropdown-item" href="https://www.cozymeal.com/magazine/indian-food" target="_blank">Indian Food  </a></li>
+                      </ul>
+                  </li>
+                  <!-- dropdown -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Offer
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">winter-20%</a></li>
+                        <li><a class="dropdown-item" href="#">summer-30% </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">up spot 10%</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Meeting and events</a>
+                </li>
+                       
+                        
+                    
+                    
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <!-- Book Now Button -->
+                <a class="btn btn-success ms-3" href="https://www.panpacific.com/en/booking/search.html" role="button">Book Now</a>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <header>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/prsps-media-gallery.jpg" class="d-block w-100" alt="..." style="width: auto; height: 550px;">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/prsin-media-gallery.jpg" class="d-block w-100" alt="..." style="width: auto; height: 550px;">
+          </div>
+          <div class="carousel-item">
+            <img src="images/MediaGallery_12_PPMEL_Club.jpg" class="d-block w-100" alt="..." style="width: auto; height: 550px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- pargraph -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <h3>Our Difference</h3>
+          <h1>Service That Comes From the Heart</h1>
+          <p></p>True luxury is unspoken, and comes from deep understanding of what our guests want and need. You'll be pampered by our experienced team who works tirelessly to ensure that your stay is a memorable one. With our warm gracious hospitality, you can rest assured that you'll be taken care of throughout your time with us.</p>
+        </div>
+        <div class="col-6">
+          <p> With our warm gracious hospitality, you can rest assured that you'll be taken care of throughout your time with us.</p>
+          <img src="images/ppctk-media-gallery (1).jpg" alt="" style="width:100%; height: 300px;">
+           <h3>Winter travelling 50% </h3>
+        </div>
+      </div>
+    </div>
+    <!-- cards -->
+    <u><h2>View Our Offers</h2></u>
+    <div class="container-fluid d-flex gx-5">
+      <div class="card" style="width: 18rem; padding:4px;">
+          <img src="images/ppssbr-03-One-Bedroom-Premium-Suite-hero-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Embrace the Year of the Dragon with savings of up to 28% on Room with Breakfast stays.</p>
+            </div>
+      </div>
+
+        <div class="card" style="width: 18rem; padding:4px;">
+            <img src="images/MediaGallery_3_PRNYT _ Swimming Pool.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <p class="card-text">Enjoy up to 30% savings on your stay with us!</p></div>
+        </div>
+
+        <div class="card" style="width: 18rem; padding:4px;">
+          <img src="images/MediaGallery_3_PRNYT _ Swimming Pool.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+          <p class="card-text">Enjoy up to 30% savings on your stay with us!</p></div>
+        </div>
+
+        <div class="card" style="width: 18rem; padding:4px;">
+            <img src="images/MediaGallery_3_PRNYT _ Swimming Pool.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Enjoy up to 30% savings on your stay with us!</p>
+          </div>
+        </div>
+    </div><br>
+    <br><br>
+
+    
+
+    <!-- section -->
+
+    <main>
+      <h3>Discover Our Experiences
+      </h3>
+      
+      
+      <div class="container-fluid d-flex">
+        <div class="row">
+          <div class="col-6">
+            <img src="images/PPC_Signpost.jpg" alt="" width="100% height=300px">
+            <span>
+              <h3>Pan Pacific Cares</h3>
+              <p>Pan Pacific Cares redefines guests’ stay experience with elevated cleaning standards and protocol to take care of our guests, associates, along with care for the community and environment.</p>
+              <a class="link link-primary" href="https://www.panpacific.com/en/panpacific-cares.html">Find out more</a>
+            </span>
+          </div>
+          <div class="col-6">
+            <img src="images/ppdac-landing-wedding-signpost.jpg" alt=""  width="100% height=300px">
+            <span>
+              <h3>Celebrations</h3>
+              <p>Walk down the aisle at Pan Pacific Sonargaon Dhaka, where our elegant spaces provide the romantic backdrop for your special celebration.</p>
+              <a class="link link-primary" href="https://www.panpacific.com/en/hotels-and-resorts/pp-dhaka/weddings.html">Find out more</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br>
+    <br><br>
+    <section>
+      <h3>Share Your Pacific Moments</h3>
+      <p>Share your moments and be inspired with <a href="https://www.instagram.com/explore/tags/panpacific/">#PenPecific</a></p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2">
+            <img src="moments/gettyimages-157529400-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/gettyimages-458935733-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/gettyimages-91654526-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/gettyimages-91654543-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/gettyimages-953068492-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/gettyimages-96947433-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+        </div>
+
+      </div><br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2">
+            <img src="moments/gettyimages-96947452-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/gettyimages-97011623-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/istockphoto-108271664-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/istockphoto-1454967171-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/istockphoto-1491342711-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+          <div class="col-2">
+            <img src="moments/istockphoto-857931522-612x612.jpg" alt="" width="100%" height="250px">
+          </div>
+        </div>
+
+    </section><br>
+    <br>
+    <h3>Frequently Asked Questions (FAQ)</h3>
+    
+    <section class="container-fluid">
+      <p class="h4 text-center mb-5"> Know Me More </p>
+
+      <div class="row">
+          <div class="col-md-12  me-auto">
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What are the precautionary measures being taken by Pan Pacific Sonargaon Dhaka?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    During these unprecedented times, Pan Pacific Cares is our pledge to you, to give you a peace of mind as you stay and dine with us globally.
+
+                              We have established “Clean Stay” standards in areas that include guest rooms, meeting rooms and dining outlets at our hotel. Precautionary measures taken at Pan Pacific Sonargaon Dhaka include:
+                              Contactless check-in.
+                              We have stepped up on the disinfection of public spaces and guestrooms, and have made hand sanitisers available.
+                              All guests are required to complete health declaration questions during check-in.
+                              As a precaution, our employees are taking temperatures twice daily and are constantly reminded to adopt good personal hygiene practices.
+                              Mandatory temperature screening for all guests at the hotel entrance upon visiting the hotel.
+                              Gatherings and events at venues such as public areas, gym, pool, function rooms, restaurants and dining outlets must also comply with the existing guidelines, which includes improving ventilation, advising participants to reduce contact with others and to ensure separation of at least one metre between people.
+                              Hotel vehicle disinfection.
+                              Banquet setup revised.
+                              Strict health advisery guideline for all staff.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What are the precautionary measures all guests should note?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Here are some ways to keep safe from COVID-19:
+
+                    All guests are required to complete health declaration questions during check-in.
+                    Clean your hands often by using soap and water, or an alcohol-based hand rub.
+                    Maintain a safe distance from anyone who is coughing or sneezing.
+                    Avoid touching your eyes, nose or mouth.
+                    Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
+                    If you have a fever, cough and difficulty breathing, seek medical attention immediately.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is Pan Pacific Sonargaon Dhaka's cancellation policy like?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Cancellation must be received more than 24 hours prior to arrival to avoid a penalty fee.
+
+                    these unprecedented times, Pan Pacific Cares is our pledge to you, to give you a peace of mind as you stay and dine with us globally. Find out more about PanDuring Pacific Cares here.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What are the different types of accommodation available at Pan Pacific Sonargaon Dhaka?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The types of accomodation at Pan Pacific Sonargaon Dhaka include:
+
+                    Deluxe Room
+                    Premier Room
+                    SuitesThe types of accomodation at Pan Pacific Sonargaon Dhaka include:
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What are the check-in and check-out times at Pan Pacific Sonargaon Dhaka?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Check-in at Pan Pacific Sonargaon Dhaka is from 3:00 PM, and check-out is until 12:00 PM.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What facilities are available at Pan Pacific Sonargaon Dhaka?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Some of the facilities available <br>
+                      1.24-hour Fitness Centre <br>
+                      2.Steam Room <br>
+                      3.Spa/Jacuzzi/Sauna <br>
+                      4.Outdoor Pool <br>
+                      5.Pacific Business Centre <br>
+                      6.Pacific Lounge <br>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-danger w-100 mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <a href=""></a>Click For More Details
+            </button>
+          </div>
+
+          
+      </div>
+  </section>
+
+  <!-- footar -->
+
+  <footer class="container mt-5">
+
+    
+    
+    <hr class="border border-1 border-danger">
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <div class="col-md-3">
+            <p class="h5 mb-4">About us </p>
+            <p>
+              <a href="#" class="text-decoration-none">Group Homepage</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none"> about Us</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none">Corporate Responsibility</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none">Newsroom</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none">Development opportinities</a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none">Carrers</a>
+            </p>
+          
+        </div>
+
+        <div class="col-md-3">
+            <p class="h5 mb-4">Contact US</p>
+            <p class="text-succes">
+              107,Kazi nazrul islam avenau, <br>
+              Dhaka-1215-Bangladesh <br>
+              E-mail:panpacipc@gmail.com
+            </p>
+            
+        </div>
+
+        <div class="col-md-3">
+            <p class="h5 mb-4"> Helpful </p>
+            <p>
+              <a href="#" class="text-decoration-none"> Flash Sale </a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none"> FAQ </a>
+            </p>
+            <p>
+              <a href="#" class="text-decoration-none"> Support </a>
+            </p>
+        </div>
+
+    </div>
+
+    <hr class="border border-1 border-danger">
+
+    <div class="text-center mb-5 mt-4">
+      &copy; Copyright || 2024
+      
+    </div>
+
+  </footer>
+
+            
+
+                    
+
+
+                
+             
+            
+
+
+
+
+
+
+      
+      
+
+
+   
+    
+    
+      
+
+       
+      
+          
+
+    <!-- Bootstrap 5 JS,-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
